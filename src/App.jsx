@@ -6,6 +6,7 @@ import ProfileImg from "./assets/aditya.svg";
 function App() {
   return (
     <>
+    
       <div className=" area">
         <ul className="circles">
           <li></li>
@@ -25,9 +26,11 @@ function App() {
       <div className=" bg-yellow-500 w-72 rounded-lg mx-9">
       <ProjectCards/>
       </div>
-   
+     
+       
     </>
   );
 }
 
 export default App;
+  
