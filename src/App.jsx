@@ -26,7 +26,7 @@ function App() {
       <div className=" bg-yellow-500 w-72 rounded-lg mx-9">
       <ProjectCards/>
       </div>
-     
+    
       
     </>
   );
