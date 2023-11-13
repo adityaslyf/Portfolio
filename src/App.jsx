@@ -27,10 +27,10 @@ function App() {
       <div className="">
       <img
           src={ProfileImg}
-          className="    absolute right-0 h-full objec"
+          className="    absolute right-0 h-full object-cover"
           alt=""
         />
-        <Navbar />
+        <Navbar className=' sm:hidden ' />
         <Routes>
           {/* <Route path="/" element={<Home />} />  */}
           <Route path="/about" element={<About />} />
