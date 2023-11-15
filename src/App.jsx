@@ -7,45 +7,40 @@ import Navbar from './Components/Navbar/Navbar'
 // import Contact from './Components/Pages/Contact'
 import Hero from './Components/Hero/Hero'
 import Contact from './Components/Contact/Contact'
+import HeroBg from './Components/HeroBg/HeroBg'
 
 // import Sidebar from './Components/Sidebar/Sidebar'
 
 function App() {
     return (
         <>
-      
             <section>
-            
-
-               
+                <HeroBg />
+                {/* <HeroBg /> */}
 
                 {/* <Navbar className=" sm:hidden " />
                 <Routes>
                     <Route path="/about" element={<About />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes> */}
-         
-                
-              <div className=' relative'>
-              <Navbar />
-       
-       <Hero/>
-              </div>
-   
-               
-            </section>
 
-            <section>Parralax</section>
+                <div className=" relative">
+                    <Navbar />
+
+                    <Hero />
+                </div>
+            </section>
+            <section></section>
+            parralax
             <section>
-              Cards
+                Cards
                 {/* <div className=" bg-yellow-500 w-72 rounded-lg mx-9">
                     <ProjectCards />
                 </div> */}
             </section>
-            
             <section>Parralax</section>
             <section>
-                <Contact  />
+                <Contact />
             </section>
         </>
     )
