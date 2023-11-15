@@ -1,0 +1,19 @@
+html{
+    scroll-snap-type:y mandatory; ;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #173e43;
+    color: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ font-family: serif;
+}
+section{
+    height: 100vh;  
+    scroll-snap-align: center;
+}

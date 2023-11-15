@@ -1,10 +1,10 @@
-import React from "react";
+
 import "./CardsDesign.css"; // Import your additional styles
 import data from "./cards.json";
 
 function ProjectCards() {
   return (
-    <div className="bg-slate-500 text-md flex flex-row flex-wrap justify-center">
+    <div className="bg-slate-500 text-md flex flex-row flex-wrap justify-center w-full">
       {data.map((cards) => (
         <div key={cards.id} className="m-4 bg-white rounded overflow-hidden shadow-lg">
           <img src={cards.image} alt="project" className="w-full h-40 object-cover" />

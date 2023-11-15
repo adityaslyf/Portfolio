@@ -1,0 +1,21 @@
+.menu {
+    @apply absolute md:hidden top-6 right-8 justify-center cursor-pointer text-3xl
+}
+
+
+
+ul li {
+    @apply text-gray-800 hover:text-gray-400 duration-500 md:my-0 my-7
+}
+
+.upper-div {
+    @apply shadow-md w-full fixed top-0 left-0
+}
+
+.second-div {
+    @apply md:flex bg-sky-800 py-4 md:px-10 px-7 items-center justify-between
+}
+
+.third-div {
+    @apply font-bold text-2xl cursor-pointer font-serif flex items-center
+}
