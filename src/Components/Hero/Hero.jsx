@@ -21,7 +21,6 @@ const Hero = () => {
             </button>
           </div>
         </div>
-
         {/* Uncomment the following image section for ProfileImage */}
          <img
           src={ProfileImage}
