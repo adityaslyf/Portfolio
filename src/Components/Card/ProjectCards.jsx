@@ -3,6 +3,7 @@ import "./CardsDesign.css"; // Import your additional styles
 import data from "./cards.json";
 
 function ProjectCards() {
+ 
   return (
     <div className="bg-slate-500 text-md flex flex-row flex-wrap justify-center w-full">
       {data.map((cards) => (

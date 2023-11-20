@@ -59,6 +59,8 @@
 // };
 // export default Navbar;
 
+
+import { Link } from 'react-router-dom'
  import { useState } from 'react'
 import './Navbar.css'
 const Navbar = () => {
@@ -79,7 +81,9 @@ const Navbar = () => {
   <li>About</li>
   <li>Work</li>
   <li>Testimonial</li>
-  <li>Contact</li>
+ 
+  <li><Link to="/Contact" >Contact</Link></li>
+
 </ul>
 
     
