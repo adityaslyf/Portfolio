@@ -1,9 +1,10 @@
 import './App.scss'
-import { Route, Routes } from 'react-router-dom'
+// import { Route, Routes } from 'react-router-dom'
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
-import Contact from './Components/Contact/Contact'
+import ProjectCards from './Components/Card/ProjectCards'
 import HeroBg from './Components/HeroBg/HeroBg'
+import Contact from './Components/Contact/Contact'
 
  export default function App() {
     return (
@@ -13,7 +14,6 @@ import HeroBg from './Components/HeroBg/HeroBg'
         <section>
         <div className=' '>
            <HeroBg />
-               
                <Navbar />
                <Hero />
            </div>
@@ -26,17 +26,17 @@ import HeroBg from './Components/HeroBg/HeroBg'
          
             <section>
                 Cards
-                {/* <div className=" bg-yellow-500 w-72 rounded-lg mx-9">
+                
                     <ProjectCards />
-                </div> */}
+               
             </section>
             <section>Parralax</section>
             <section>
-            <Routes>
-                {/* <Contact /> */}
-                <Route path="/contact" component={<Contact />} />
            
-            </Routes>
+                <Contact />
+                {/* <Route path="/contact" component={<Contact />} /> */}
+           
+         
             </section>
         </>
        

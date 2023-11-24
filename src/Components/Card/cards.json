@@ -24,5 +24,21 @@
     "image": "../assets/aditya-removebg-preview.png",
     "githubLink": "https://github.com/yourusername/project3",
     "liveDemoLink": "https://www.example.com/project3-demo"
+  },
+  {
+    "id": 3,
+    "title": "Project 3",
+    "description": "This is the description of Project 3. You can provide details about the project here.",
+    "image": "../assets/aditya-removebg-preview.png",
+    "githubLink": "https://github.com/yourusername/project3",
+    "liveDemoLink": "https://www.example.com/project3-demo"
+  },
+  {
+    "id": 3,
+    "title": "Project 3",
+    "description": "This is the description of Project 3. You can provide details about the project here.",
+    "image": "../assets/aditya-removebg-preview.png",
+    "githubLink": "https://github.com/yourusername/project3",
+    "liveDemoLink": "https://www.example.com/project3-demo"
   }
 ]

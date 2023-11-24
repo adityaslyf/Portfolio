@@ -82,7 +82,7 @@ const Navbar = () => {
   <li>Work</li>
   <li>Testimonial</li>
  
-  <li><Link to="/Contact" >Contact</Link></li>
+  <li><Link to="/contact" >Contact</Link></li>
 
 </ul>
 
