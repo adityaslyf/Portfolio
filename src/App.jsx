@@ -2,11 +2,12 @@ import './App.scss'
 // import { Route, Routes } from 'react-router-dom'
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
-import ProjectCards from './Components/Card/ProjectCards'
+import Cards from './Components/Card/Cards'
 import HeroBg from './Components/HeroBg/HeroBg'
 import Contact from './Components/Contact/Contact'
+import Map from './Components/Contact/Map'
 
- export default function App() {
+ const App =() =>{
     return (
        
         <>
@@ -22,18 +23,20 @@ import Contact from './Components/Contact/Contact'
                 
                
            
-            <section>parralax</section>
+            
          
             <section>
                 Cards
                 
-                    <ProjectCards />
+                    <Cards />
                
             </section>
-            <section>Parralax</section>
-            <section>
+            
+            <section className=' flex'>
            
                 <Contact />
+                <Map />
+
                 {/* <Route path="/contact" component={<Contact />} /> */}
            
          
@@ -42,5 +45,7 @@ import Contact from './Components/Contact/Contact'
        
     )
 }
+
+export default App;
 
 
